@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/scan"
+        android:icon="@drawable/ic_baseline_qr_code_scanner_24"
+        android:tooltipText="Scan"
+        android:enabled="true"
+        android:title="Scan QR" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_baseline_account_circle_24"
+        android:tooltipText="Profile"
+        android:enabled="true"
+        android:title="Profile" />
+</menu>

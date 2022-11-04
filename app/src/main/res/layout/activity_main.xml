@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="254dp"
+        android:layout_height="195dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/round_button"
+        android:text="Login as TEACHER"
+        android:onClick="LoginTea"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="254dp"
+        android:layout_height="195dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/round_button2"
+        android:onClick="LoginStud"
+        android:text="Login as STUDENT"
+        android:textSize="20dp" />
+
+</LinearLayout>
